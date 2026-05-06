@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m "Initial commit"
+
+//new repo
+gh repo create NazwaRepo --public --source=. --remote=origin --push 
+
+//inne
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/TWOJ_LOGIN/Pla.git
+git push -u origin main
