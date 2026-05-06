@@ -66,6 +66,7 @@ def get_all_issues(domain, email, api_token, jql):
 
 issues = get_all_issues(DOMAIN, EMAIL, API_TOKEN, JQL)
 
+#Last new comment
 print(f"\nŁącznie pobrano: {len(issues)} issue")
 
 for issue in issues:
